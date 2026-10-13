@@ -1,6 +1,3 @@
-
-
-/* General page style */
 body {
   font-family: Arial, sans-serif;
   background-color: rgb(245, 245, 245);
@@ -9,7 +6,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
 #site-header {
   background-color: white;
   padding: 20px;
@@ -22,7 +18,6 @@ body {
   color: rgb(78, 179, 210);
 }
 
-/* Navigation */
 .main-nav {
   display: flex;
   gap: 20px;
@@ -37,7 +32,6 @@ body {
   text-decoration: underline;
 }
 
-/* Main sections */
 .content-section {
   background-color: rgb(255, 255, 255);
   margin: 20px;
@@ -50,7 +44,6 @@ body {
   color: rgb(78, 179, 210);
 }
 
-/* Schedule table */
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
@@ -72,7 +65,6 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
-/* Grade cards */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -97,7 +89,7 @@ body {
   color: rgb(0, 128, 128);
 }
 
-/* Registration form */
+
 .register-form {
   display: flex;
   flex-direction: column;
@@ -130,7 +122,7 @@ body {
   background-color: rgb(26, 0, 193);
 }
 
-/* Footer */
+
 .site-footer {
   text-align: center;
   padding: 16px;
@@ -139,7 +131,7 @@ body {
   color: white;
 }
 
-/* Mobile layout */
+
 @media (max-width: 700px) {
   .card-grid {
     grid-template-columns: 1fr;
